@@ -1,0 +1,51 @@
+.upload-main-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.upload-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px; /* Adjust card width as needed */
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 100%; /* Ensure image takes full width of the card */
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+.card h5 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}

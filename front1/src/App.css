@@ -1,0 +1,10 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.main-content {
+  margin-top: 80px; /* Adjust this value to provide sufficient space below the navbar */
+  padding: 20px;
+}

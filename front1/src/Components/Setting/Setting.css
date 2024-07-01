@@ -1,0 +1,65 @@
+/* Setting.css */
+
+.setting-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 8px;
+  }
+  
+  .edit-photo-section,
+  .edit-username-section {
+    margin-bottom: 16px; /* Added margin to separate sections */
+  }
+  
+  .input-field {
+    width: 100%; /* Ensure the input fields take up full width of their container */
+    padding: 10px;
+    font-size: 0.875rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  }
+  
+  .preview-image {
+    margin-top: 8px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .save-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 16px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #1d4ed8;
+  }
+  

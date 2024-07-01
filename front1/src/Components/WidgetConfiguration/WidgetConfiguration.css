@@ -1,0 +1,85 @@
+/* ButtonFormSelector.css */
+
+.button-form-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px; /* Add margin to push the component down */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-button.active {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-content {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .form-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container form label {
+    margin-bottom: 8px;
+  }
+  
+  .form-container form input,
+  .form-container form select,
+  .form-container form textarea {
+    padding: 10px;
+    font-size: 0.875rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .form-container form button {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container form button:hover {
+    background-color: #1d4ed8;
+  }
+  

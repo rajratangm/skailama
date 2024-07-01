@@ -1,0 +1,38 @@
+.button {
+    position: absolute;
+    left: 150px; /* Position from the left */
+    top: 70px; /* Position from the top */
+    
+    width: 198.69px;
+    height: 41px;
+    border-radius: 35.32px; /* Rounded corners */
+    border: 0.75px solid #999999; /* Border color */
+    background-color: transparent; /* Transparent inside */
+    color:  #3C3C3C;
+    ; /* Text color */
+    font-size: 16px;
+    cursor: pointer;
+    display: flex; /* Change to flex for better alignment */
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Add some space between the icon and text */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  
+    box-shadow: 
+      0.75px 1.5px 3.75px 0px rgba(0, 0, 0, 0.15),
+      3px 6px 6.75px 0px rgba(0, 0, 0, 0.13),
+      6.75px 13.51px 9px 0px rgba(0, 0, 0, 0.08),
+      12.01px 24.01px 10.5px 0px rgba(0, 0, 0, 0.03);
+  }
+  
+  .button:hover {
+    background-color: #999999; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  .button img {
+    width: 29.11px; /* Set width */
+    height: 29.11px; /* Set height */
+    padding: 4.24px 2.43px; /* Set padding */
+  }
+  

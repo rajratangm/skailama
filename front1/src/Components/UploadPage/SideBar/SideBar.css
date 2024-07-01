@@ -1,0 +1,44 @@
+.sidebar {
+  width: 20rem; /* Fixed width for the sidebar */
+  height: 100%; /* Full height of the parent container */
+  background-color: #F3E8FF; /* Light purple background */
+  padding: 20px;
+  position: fixed; /* Fixed position to stay visible */
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Enable scrolling if content exceeds height */
+  z-index: 1; /* Set a lower z-index */
+}
+
+.sidebar-header {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-list li {
+  margin-bottom: 10px;
+}
+
+.sidebar-list li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-list li a:hover {
+  background-color: #1D1B2014; /* Light purple with opacity on hover */
+}
+
+.sidebar-list li a.active {
+  background-color: #7E22CE; /* Dark purple when active/clicked */
+  color: #fff; /* White text color on active/clicked */
+}

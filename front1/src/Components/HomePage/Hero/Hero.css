@@ -1,0 +1,112 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.heading {
+  width: 100%;
+  max-width: 694px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #7E22CE;
+  margin-bottom: 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #999999;
+  border-radius: 12.89px;
+  background-color: #211935;
+  color: #F8F8F8;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: Roboto, sans-serif;
+}
+
+.button1:hover {
+  background-color: #999999;
+  color: white;
+}
+
+.button1 img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.projects-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+.projects-header h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7E22CE;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.project-card {
+  padding: 20px;
+  border: 1px solid #999999;
+  border-radius: 12.89px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
