@@ -41,10 +41,13 @@ import UploadPage from './Components/UploadPage/UploadPage';
 import SettingIndex from './Components/Setting/SettingIndex'; // Import SettingIndex component
 import './App.css';
 
+const theme = createTheme({
+  // Your theme configurations
+});
 
 function App() {
   return (
-   
+    <ThemeProvider theme={theme}>
       <Router>
         <div className="App">
           <Navbar />
@@ -57,7 +60,7 @@ function App() {
           </main>
         </div>
       </Router>
-    
+    </ThemeProvider>
   );
 }
 

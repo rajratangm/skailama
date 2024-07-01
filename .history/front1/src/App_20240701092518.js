@@ -34,17 +34,20 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import { ThemeProvider, createTheme } from '@material-ui/core/styles';
 import Navbar from './Components/HomePage/Navbar/Navbar';
 import HomePage from './Components/HomePage/HomePage/HomePage';
 import UploadPage from './Components/UploadPage/UploadPage';
 import SettingIndex from './Components/Setting/SettingIndex'; // Import SettingIndex component
 import './App.css';
 
+const theme = createTheme({
+  // Your theme configurations
+});
 
 function App() {
   return (
-   
+    <ThemeProvider theme={theme}>
       <Router>
         <div className="App">
           <Navbar />
@@ -57,7 +60,7 @@ function App() {
           </main>
         </div>
       </Router>
-    
+    </ThemeProvider>
   );
 }
 

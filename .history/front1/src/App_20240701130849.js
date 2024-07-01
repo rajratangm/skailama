@@ -44,7 +44,7 @@ import './App.css';
 
 function App() {
   return (
-   
+    <ThemeProvider theme={theme}>
       <Router>
         <div className="App">
           <Navbar />
@@ -57,7 +57,7 @@ function App() {
           </main>
         </div>
       </Router>
-    
+    </ThemeProvider>
   );
 }
 
