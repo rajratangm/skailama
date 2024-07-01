@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './WidgetConfiguration.css'; // Import the CSS file for styling
-
+import { Navbar } from '@material-tailwind/react';
 
 const ButtonFormSelector = () => {
   const [activeButton, setActiveButton] = useState(null);
